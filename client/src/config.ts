@@ -1,6 +1,5 @@
 // TODO: Once your application is deployed, copy an API id here so that the frontend could interact with it
-// const apiId = 'pqrahixtia';
-const apiId = 'e5p3pehr79';
+const apiId = '83yvbz173l';
 export const apiEndpoint = `https://${apiId}.execute-api.us-east-1.amazonaws.com/dev`
 
 export const authConfig = {
@@ -10,5 +9,3 @@ export const authConfig = {
   clientId: 'n1C5RazkRjZPB8kpDx03Eet4It4ofpni', // Auth0 client id
   callbackUrl: 'http://localhost:3000/callback'
 }
-
-//   POST - https://e5p3pehr79.execute-api.us-east-1.amazonaws.com/dev/todos/{todoId}/attachment

@@ -48,10 +48,14 @@ custom:
             - dueDate
             - description
           properties:
-            name:
-              minLength: 1
+            title:
+              minLength: 2
               type: string
             dueDate:
+              minLength: 10
+              type: string
+            description:
+              minLength: 5
               type: string
       - name: UpdateTodoRequest
         contentType: "application/json"
@@ -61,10 +65,14 @@ custom:
             - dueDate
             - done
           properties:
-            name:
-              minLength: 1
+            title:
+              minLength: 2
               type: string
             dueDate:
+              minLength: 10
+              type: string
+            description:
+              minLength: 5
               type: string
             done:
               type: boolean
